@@ -62,7 +62,7 @@ export default function WorkWithMe() {
               {
                 icon: <Clock className="text-violet-600" size={22} />,
                 num: '02',
-                title: 'Sessione 1-1 Intensiva',
+                title: 'Sessione 1:1 Intensiva',
                 desc: '2 ore dedicate esclusivamente a te. Vedremo ogni singolo passaggio tecnico e creativo.',
               },
               {
@@ -120,7 +120,7 @@ export default function WorkWithMe() {
                 </h3>
                 <div className="space-y-0 mb-10">
                   {[
-                    'Consulenza 1-1 (2 Ore)',
+                    'Consulenza 1:1 (2 Ore)',
                     'Guida PDF Istruzioni',
                   ].map((item, i) => (
                     <div key={i} className="flex justify-between items-center py-4 border-b border-white/10">

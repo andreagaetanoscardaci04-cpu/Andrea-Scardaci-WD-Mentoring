@@ -1,19 +1,19 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { ArrowRight, ArrowUpRight, Plus, Minus, CheckCircle2, Zap, Globe, Search } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Plus, Minus, CheckCircle2, Award, Globe, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const marqueeItems = [
-  'WEB DESIGN', 'MENTORING 1-1', 'SEO OTTIMIZZATO', 'DESIGN PREMIUM',
+  'WEB DESIGN', 'MENTORING 1:1', 'SEO OTTIMIZZATO', 'DESIGN PREMIUM',
   'SITI PROFESSIONALI', 'BUSINESS LOCALE', 'AUTONOMIA TOTALE', 'RISULTATI REALI',
 ];
 
 const features = [
   {
     num: '01',
-    icon: <Zap size={26} className="text-violet-600" />,
-    title: 'Velocità Estrema',
-    desc: 'Tempi di caricamento ottimizzati al millisecondo. I tuoi visitatori non aspetteranno mai.',
+    icon: <Award size={26} className="text-violet-600" />,
+    title: 'Metodo Collaudato',
+    desc: 'Un percorso strutturato e testato su decine di attività locali. Sai esattamente cosa aspettarti, passo dopo passo.',
   },
   {
     num: '02',
@@ -36,7 +36,7 @@ const steps = [
   },
   {
     title: 'Sessione Intensiva',
-    desc: '2 ore in chiamata 1-1. Vedremo ogni passaggio tecnico e creativo, dal design alla pubblicazione online.',
+    desc: '2 ore in chiamata 1:1. Vedremo ogni passaggio tecnico e creativo, dal design alla pubblicazione online.',
   },
   {
     title: 'Autonomia Totale',
@@ -45,7 +45,7 @@ const steps = [
 ];
 
 const includes = [
-  'Sessione 1-1 da 2 ore su Zoom',
+  'Sessione 1:1 da 2 ore su Zoom',
   'Guida PDF con tutti i passaggi',
   'Struttura SEO ottimizzata',
   'Design responsive mobile-first',
