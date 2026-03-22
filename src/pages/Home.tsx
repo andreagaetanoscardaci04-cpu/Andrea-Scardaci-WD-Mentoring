@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { ArrowRight, ArrowUpRight, Plus, Minus, CheckCircle2, Award, Globe, Search } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Plus, Minus, CheckCircle2, Lightbulb, Globe, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const marqueeItems = [
@@ -11,9 +11,9 @@ const marqueeItems = [
 const features = [
   {
     num: '01',
-    icon: <Award size={26} className="text-violet-600" />,
-    title: 'Metodo Collaudato',
-    desc: 'Un percorso strutturato e testato su decine di attività locali. Sai esattamente cosa aspettarti, passo dopo passo.',
+    icon: <Lightbulb size={26} className="text-violet-600" />,
+    title: 'Zero Esperienza Richiesta',
+    desc: 'Non serve saper programmare. Partiamo da zero e alla fine della sessione avrai un sito professionale online e funzionante.',
   },
   {
     num: '02',
